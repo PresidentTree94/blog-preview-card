@@ -69,6 +69,11 @@ h2 {
   margin: 16px 0;
 }
 
+h2:hover {
+  color: rgb(244, 208, 78);
+  cursor: pointer;
+}
+
 .description {
   color: rgb(107, 107, 107);
   font-weight: 500;
