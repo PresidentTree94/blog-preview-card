@@ -13,17 +13,18 @@
 }
 
 html, body {
-  height: 100%;
+  min-height: 100%;
+  overflow: auto;
 }
 
 body {
+  min-height: 100svh;
   font-family: "Figtree", serif;
   font-size: 1rem;
   display: grid;
   place-items: center;
   background-color: var(--naplesYellow);
   color: var(--night);
-  overflow-x: hidden;
 }
 
 main {
@@ -72,8 +73,6 @@ article {
 
 .category:hover {
   background-color: var(--night);
-  color: var(--naplesYellow);
-  cursor: pointer;
 }
 
 .date {
@@ -86,16 +85,11 @@ article {
   line-height: 150%;
 }
 
-h2 {
+h1 {
   font-size: 1.5rem; /*24px*/
   font-weight: 800;
   line-height: 150%;
   margin: 0.75rem 0; /*12px*/
-}
-
-h2:hover {
-  color: var(--naplesYellow);
-  cursor: pointer;
 }
 
 .description {
@@ -121,7 +115,7 @@ aside p {
   line-height: 150%;
 }
 
-aside p:hover {
+.category:hover, h1:hover, aside p:hover {
   color: var(--naplesYellow);
   cursor: pointer;
 }
@@ -152,7 +146,7 @@ a:hover {
     font-size: 0.75rem; /*12px*/
   }
   
-  h2 {
+  h1 {
     font-size: 1.25rem; /*20px*/
   }
 }
