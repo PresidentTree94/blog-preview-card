@@ -13,12 +13,12 @@
 }
 
 html, body {
-  min-height: 100%;
+  height: 100vh; /*Fallback for svh*/
+  height: 100svh;
   overflow: auto;
 }
 
 body {
-  min-height: 100svh;
   font-family: "Figtree", serif;
   font-size: 1rem;
   display: grid;
