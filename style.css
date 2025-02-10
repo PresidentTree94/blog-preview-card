@@ -32,11 +32,11 @@ main {
   max-width: calc(24rem + (var(--boxShadow) * 2)); /*384px + box-shadow*/
   padding: 0 var(--boxShadow);
   opacity: 0;
-  animation: fadeUp 1s ease forwards;
+  animation: fadeDown 1s ease forwards;
 }
 
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(100px); }
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-100px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
