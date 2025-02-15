@@ -1,5 +1,5 @@
 # Blog Preview Card
-This is a solution to the [Blog preview Card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Blog Preview Card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Overview
 As part of the [Getting started on Frontend Mentor](https://www.frontendmentor.io/learning-paths) learning pathway, it is the second of four challenges users must complete to finish the unit.
