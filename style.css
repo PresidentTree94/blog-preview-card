@@ -1,15 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --naplesYellow: rgb(244, 208, 78);
   --white: rgb(255, 255, 255);
   --dimGray: rgb(107, 107, 107);
   --night: rgb(17, 17, 17);
   --boxShadow: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
