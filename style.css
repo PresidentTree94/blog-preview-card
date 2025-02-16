@@ -28,10 +28,9 @@ body {
 }
 
 main {
-  /*min-width: calc(20.4375rem + (var(--boxShadow) * 2));*/ /*327px + box-shadow*/
+  /*Clamp does keep the boxShadow padding surrounding the main when the viewport scrolls*/
   max-width: 24rem; /*384px*/
   min-width: 18.625rem; /*298px*/
-  /*width: clamp(18.625rem, 100%, 24rem);*/
   padding: 0 var(--boxShadow);
   opacity: 0;
   animation: fadeDown 1s ease forwards;
