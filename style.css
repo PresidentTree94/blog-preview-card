@@ -28,9 +28,8 @@ body {
 }
 
 main {
-  /*Clamp does keep the boxShadow padding surrounding the main when the viewport scrolls*/
-  max-width: 24rem; /*384px*/
   min-width: 18.625rem; /*298px*/
+  max-width: 24rem; /*384px*/
   padding: 0 var(--boxShadow);
   opacity: 0;
   animation: fadeDown 1s ease forwards;
