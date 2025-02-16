@@ -29,7 +29,7 @@ body {
 
 main {
   /*min-width: calc(20.4375rem + (var(--boxShadow) * 2));*/ /*327px + box-shadow*/
-  max-width: calc(24rem + (var(--boxShadow) * 2)); /*384px + box-shadow*/
+  max-width: 24rem; /*384px*/
   padding: 0 var(--boxShadow);
   opacity: 0;
   animation: fadeDown 1s ease forwards;
