@@ -12,24 +12,26 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100vh; /*Fallback for svh*/
-  height: 100svh;
-  overflow: auto;
-}
-
 body {
   font-family: "Figtree", serif;
   font-size: 1rem;
-  display: grid;
-  place-items: center;
   background-color: var(--naplesYellow);
   color: var(--night);
 }
 
+.container {
+  max-width: min(100%, 24rem); /*384px*/
+  min-height: 100vh; /*Fallback for svh*/
+  min-height: 100svh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
 main {
   min-width: 18.625rem; /*298px*/
-  max-width: 24rem; /*384px*/
   padding: 0 var(--boxShadow);
   opacity: 0;
   animation: fadeDown 1s ease forwards;
