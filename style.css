@@ -31,7 +31,6 @@ body {
 }
 
 main {
-  min-width: 18.625rem; /*298px*/
   padding: 0 var(--boxShadow);
   opacity: 0;
   animation: fadeDown 1s ease forwards;
