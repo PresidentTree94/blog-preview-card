@@ -24,6 +24,8 @@ body {
   min-height: 100vh; /*Fallback for svh*/
   min-height: 100svh;
   margin: 0 auto;
+  padding: 1rem calc(var(--boxShadow) + 1rem);
+  box-sizing: content-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +33,6 @@ body {
 }
 
 main {
-  padding: 0 var(--boxShadow);
   opacity: 0;
   animation: fadeDown 1s ease forwards;
 }
