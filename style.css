@@ -4,6 +4,7 @@
   --dimGray: rgb(107, 107, 107);
   --night: rgb(17, 17, 17);
   --boxShadow: 0.5rem;
+  --mainPadding: 1rem;
 }
 
 * {
@@ -20,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: min(100%, 26rem); /*384px + 32px padding*/
+  max-width: min(100%, calc(24rem + (var(--mainPadding) * 2))); /*384px + 1rem round padding*/
   min-height: 100vh; /*Fallback for svh*/
   min-height: 100svh;
   margin: 0 auto;
@@ -31,7 +32,7 @@ body {
 }
 
 main {
-  padding: 1rem;
+  padding: var(--mainPadding);
   opacity: 0;
   animation: fadeDown 1s ease forwards;
 }
