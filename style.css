@@ -6,6 +6,13 @@
   --boxShadow: 0.5rem;
 }
 
+.darkMode {
+  --naplesYellow: rgb(214, 178, 48);
+  --white: rgb(17, 17, 17);
+  --dimGray: rgb(207, 207, 207);
+  --night: rgb(255, 255, 255);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +35,14 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+#toggle {
+  background-color: var(--dimGray);
+}
+
+svg {
+  fill: var(--white);
 }
 
 main {
