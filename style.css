@@ -6,7 +6,7 @@
   --boxShadow: 0.5rem;
 }
 
-.darkMode {
+.altMode {
   --naplesYellow: rgb(214, 178, 48);
   --white: rgb(17, 17, 17);
   --dimGray: rgb(207, 207, 207);
