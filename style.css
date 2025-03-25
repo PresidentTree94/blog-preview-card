@@ -13,12 +13,6 @@
   --night: rgb(255, 255, 255);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Figtree", serif;
   font-size: 1rem;
@@ -30,11 +24,7 @@ body {
   max-width: min(100%, 26rem); /*416px*/
   min-height: 100vh; /*Fallback for svh*/
   min-height: 100svh;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 #toggle {
@@ -48,12 +38,7 @@ svg {
 main {
   padding: 1rem;
   opacity: 0;
-  animation: fadeDown 1s ease forwards;
-}
-
-@keyframes fadeDown {
-  from { opacity: 0; transform: translateY(-100px); }
-  to { opacity: 1; transform: translateY(0); }
+  animation-name: fadeDown;
 }
 
 section {
@@ -143,20 +128,11 @@ aside p {
 }
 
 footer {
-  font-size: 0.6875rem; /*11px*/
   text-align: center;
-  margin: 0.6875rem 1rem 0; /*11px*/
-  text-wrap: pretty;
 }
 
 a {
-  text-decoration: none;
   color: var(--dimGray);
-  font-weight: 600;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 @media (width < 21.5625rem /*345px*/) {
